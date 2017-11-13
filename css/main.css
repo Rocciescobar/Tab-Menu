@@ -1,0 +1,70 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: 25px auto;
+  width: 900px;
+}
+
+#inicialSection .logo {
+  width: 60px;
+}
+
+#inicialSection .title {
+  color: #fcb425;
+  font-size: 3em;
+  margin: 25px 0;
+  text-align: center;
+}
+#inicialSection p.companyDescription {
+  color: #1a1a1a;
+  font-size: 1em;
+}
+
+#contentSection .tabContainer {  
+  border-bottom: 1.5px solid #fcb425;
+}
+
+.tabContainer li {
+  display: inline-block;
+  list-style: none;
+  padding-left: 10px;
+  margin-bottom: 1px;
+}
+
+.tab {  
+  background-color: #fcb425;  
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px;
+  width: 100px;
+}
+
+#contentSection .description {
+  margin-top: 10px;
+}
+
+.divImg, .divText {
+  display: inline-block;
+}
+
+.divImg img {
+  width: 500px;
+}
+
+.divText {
+  padding-left: 36px;
+  position: absolute;
+}
+
+.divText h3 {
+  font-size: 1.8em;  
+}
+
+.description ul {
+  margin-left: 25px;
+}

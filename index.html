@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tab Menu</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <section id="inicialSection" class="container">
+      <h1 class="title"><b>< Lab Menú <img src="assets/images/hamburguesa.jpg" alt="logo" class="logo"></b>></h1>
+      <p class="companyDescription">Somos la cadena de restaurantes de entrega rápida más grande, exitosa e innovadora de Perú y para alcanzar el estándar de servicio necesario para lograrlo, mantenemos una estricta política de eficiencia y trato ético y honesto hacia nuestros clientes, proveedores, colaboradores, asociados y a la comunidad en general.</p>
+    </section>
+    <section id="contentSection" class="container">
+      <ul class="tabContainer">
+        <li><button type="button" name="button" data-selected-tab="breakfastTab" class="tab">Desayuno</button></li>
+        <li><button type="button" name="button" data-selected-tab="lunchTab" class="tab">Almuerzo</button></li>
+        <li><button type="button" name="button" data-selected-tab="dinnerTab" class="tab">Cena</button></li>
+      </ul>
+      <div class="description">
+        <article id="breakfast" class="content">
+          <div class="divImg"><img src="assets/images/desayuno.jpg" alt="Desayuno"></div>
+          <div class="divText">
+            <h3>Desayuno</h3>
+            <br>
+            <ul>
+              <li>Pan</li>
+              <li>Café</li>
+              <li>Fruta</li>
+              <li>Jugo</li>
+            </ul>
+          </div>
+        </article>
+        <article id="lunch" class="content">
+          <div class="divImg"><img src="assets/images/almuerzo.jpg" alt="Almuerzo"></div>
+          <div class="divText">
+            <h3>Almuerzo</h3>
+            <br>
+            <ul>
+              <li>Sopa</li>
+              <li>Fondo</li>
+              <li>Refreso</li>
+            </ul>
+          </div>
+        </article>
+        <article id="dinner" class="content">
+          <div class="divImg"><img src="assets/images/cena.jpg" alt="Cena"></div>
+          <div class="divText">
+            <h3>Cena</h3>
+            <br>
+            <ul>
+              <li>Fondo a elección</li>
+              <li>Refresco</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
